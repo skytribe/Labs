@@ -27,6 +27,13 @@ namespace GetTime
              */
 
 
+            //Debug Assert Class
+            var a = 3;
+            var b = 0;
+            System.Diagnostics.Debug.Assert(b != 0, "b cannot be 0");
+
+            var tax = a / b;
+
 #if DEBUG
             Console.ReadLine();
 #endif
